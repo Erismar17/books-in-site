@@ -1,0 +1,13 @@
+.background-buttons {
+    background-color: #C1D72F;
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+input::placeholder {
+    color: rgb(121, 121, 121);
+}
+
+input:focus {
+    outline: none;
+}
