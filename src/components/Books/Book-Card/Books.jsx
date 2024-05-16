@@ -9,9 +9,9 @@ const Books = () => {
     return (
         <div className='book-card'>
             <Link to={'/detail'} /* to={`/${book.title}`} */>
-                <div className='bg-white rounded-md p-2 flex text-center shadow-lg '>
+                <div className='bg-white rounded-md p-2 flex text-center shadow-lg information-book'>
                     <img src={book} alt='' className='w-32 rounded-md mb-2 shadow-lg'/>
-                    <div className='mx-8 flex flex-col justify-evenly'>
+                    <div className='mx-6 flex flex-col justify-evenly '>
                         <div>
                             <p>Antes de Diciembre</p>
                             <p>Joana Marcús</p>

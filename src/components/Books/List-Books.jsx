@@ -5,7 +5,7 @@ const ListBooks = () => {
     return (
         <div className="grid-books m-10">
             <Books/>
-            <Books/><Books/><Books/>
+            <Books/><Books/><Books/><Books/><Books/><Books/><Books/><Books/><Books/><Books/><Books/><Books/>
         </div>
     )
 }
