@@ -1,0 +1,10 @@
+.button-available {
+    background-color: #C1D72F;
+    border-radius: 6px;
+}
+
+.button-notAvailable {
+    background-color: #e00909;
+    color: white;
+    border-radius: 6px;
+}
