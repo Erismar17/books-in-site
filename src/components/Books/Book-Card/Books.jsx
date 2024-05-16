@@ -17,7 +17,7 @@ const Books = () => {
                             <p>Joana Marcús</p>
                         </div>
                         <p className={`${state ? 'button-available' : 'button-notAvailable'}`}>
-                            {state ? 'Disponible' : 'No disponible'}
+                            {state ? 'Available' : 'No Available'}
                         </p>
                         <div className=''>
                             <p>Published by</p>
