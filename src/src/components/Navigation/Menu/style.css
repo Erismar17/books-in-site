@@ -1,0 +1,39 @@
+.menuBarra {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 40px;
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.menuBarra-button {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.fila1, .fila2, .fila3 {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 6px;
+    transition: all 600ms;
+    transform-origin: 0px 100%;
+}
+
+.fila1Animacion {
+    transform: rotate(45deg) translate(-2px, 1px);
+
+}
+
+.fila3Animacion {
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+
+.fila2Animacion {
+    opacity: 0;
+    margin-left: -35px;
+}
